@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,84 +9,122 @@
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Varela+Round&display=swap" rel="stylesheet"> 
 </head>
-<header>
-    <nav>
-        <a href="#home"><img src="Images/logo.svg" alt="logo"></a>
-        <ul>
-            <li><a href="#episodios">EPISODIOS</a></li>
-            <li><a href="#nosotros">NOSOTROS</a></li>
-            <li><a href="#entrevistas">ENTREVISTAS</a></li>
-            <li><a href="#topicos">TÓPICOS</a></li>
-        </ul>
-    </nav>
-</header>
+
 <body>
-    <section class="home">
-        <div>
-            <h1>Hello world pale blue dot.</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam ad error sed unde veniam nobis voluptatibus asperiores, libero vel rem atque, adipisci amet iure corporis laborum temporibus assumenda repellat consectetur.</p>
-        </div>
-        <button>
-            CONOCE MÁS
-        </button>
-    </section>     
+    <header class="header">
+        <img class="brand" src="Images/logo.svg" alt="logo">
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
 
-    <section class="episodios" id="episodios">
-        <div>
-            <iframe src="https://open.spotify.com/embed-podcast/show/2ySVrxGkN6n6frMTo9Nsrt" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-        </div>
-        <div>
-            <iframe src="https://open.spotify.com/embed-podcast/show/4kYCRYJ3yK5DQbP5tbfZby" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-        </div>
-        <div>
-            <iframe src="https://open.spotify.com/embed-podcast/show/5JxcIaIkN8zx3Zy7yD9snv" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-        </div>
-        <div>
-            <iframe src="https://open.spotify.com/embed-podcast/show/2Iibd5A6R7mxkCm4NwNmUn" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-        </div>
-    </section>   
+        <nav>
+            <ul class="menu">
+                <li><a href="#episodes">episodios</a></li>
+                <li><a href="#about_us">nosotros</a></li>
+                <li><a href="#guests">entrevistas </a></li>
+                <li><a href="#topics">t&oacute;picos</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <section class="nosotros" id="nosotros">
-        <div>
-            <h2>De donde venimos</h2>
+    <div class="content">
+
+        <section id="home">
+            <h1>Hello <span id="line">world</span> pale blue dot<span id="dot">.</span></h1>
+
+
+            <p>
+                Un podcast que explora el mundo de la programación. Nuevos episodios, todos los jueves cada 15 días.
+            </p>
+            <button class="button">conocé más</button>
+
+        </section>
+        <section id="episodes">
+            <h2>Episodios</h2>
+            <div class="iframes">
+                <iframe class="ifr" src="https://open.spotify.com/embed-podcast/episode/7AZZy2nJ4R9ZndHW0h2yxt" allow="encrypted-media"></iframe>
+                <iframe class="ifr" src="https://open.spotify.com/embed-podcast/episode/1ezdL2ivAGLwSE6Xbssxqt" allow="encrypted-media"></iframe>
+                <iframe class="ifr" src="https://open.spotify.com/embed-podcast/episode/3cWta1iiQSfvrdHaCbLkSD" allow="encrypted-media"></iframe>
+                <iframe class="ifr" src="https://open.spotify.com/embed-podcast/episode/31VyAQAwBiKoHVoYUCEzjQ" allow="encrypted-media"></iframe>
+
+            </div>
+        </section>
+        <div class="img">
+            <img src="Images/phone.png" alt="Cellphone image">
         </div>
-        <img src="Images/phone.png" alt="celular">
-        <article>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quo, tempora eveniet laborum officia eligendi culpa nisi harum sit labore incidunt ab. Omnis, ducimus quia. Facilis possimus totam magnam temporibus. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita cum nobis tempore similique earum mollitia nemo, amet necessitatibus inventore corporis, voluptatibus culpa recusandae. Tempora at illum, corporis quos esse officia?
-        </article>
-    </section>
+        <section id="about_us">
+            <div class="us">
+                <h2>De dónde venimos</h2>
 
-    <section class="entrevistas" id="entrevistas">
-        <div>
-            <h2>Invitados/as estelares</h2>
+                <p>
+                    Our posturings, our imagined self-importance, the delusion that we have some privileged position in the Universe, are challenged by this point of pale light.
+                    <br>
+                    <br> Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselves.
+                </p>
+
+            </div>
+        </section>
+        <section id="guests">
+            <h2>
+                Invitadas/os estelares
+            </h2>
+            <div class="gallery">
+
+                <img src="Images/grace-hopper.png" alt="Grace Hopper">
+                <img src="Images/Katie-Bouman.png" alt="Katie Bouman">
+                <img src="Images/Margaret_Hamilton.png" alt="Margaret Hamilton">
+                <img src="Images/era.png" alt="Computador E.R.A.Univac 1103 en los años 50's">
+                <img src="Images/eniac.png" alt="ENIAC">
+                <img src="Images/susan-kare.png" alt="Susan Kare">
+            </div>
+        </section>
+        <section id="topics">
+            <h2>
+                Algunos de nuestros temas
+            </h2>
+            <div class="icons">
+                <div class="icon">
+                    <img src="Images/icon1.svg" alt="Trabajo remoto">
+                    <h3>Trabajo remoto</h3>
+                </div>
+                <div class="icon">
+                    <img src="Images/icon2.svg" alt="Repensando la programacion">
+                    <h3>Repensando la <br>programación</h3>
+                </div>
+                <div class="icon">
+                    <img src="Images/icon3.svg" alt="Bases del codigo">
+                    <h3>Bases del código</h3>
+                </div>
+                <div class="icon">
+                    <img src="Images/icon4.svg" alt="Seguridad informatica">
+                    <h3>Seguridad informática</h3>
+                </div>
+            </div>
+        </section>
+        <section id="updates">
+
+            <h2>
+                ¿Querés las últimas novedades?
+            </h2>
+            <button class="btn">Escuchá los episodios</button>
+        </section>
+
+    </div>
+    <footer>
+        <div class="media">
+
+            <p>© 2020 — Hello blue pale dot</p>
+
+            <div class="social-icons">
+                <a href="https://www.spotify.com " target="_blank"><i class="fab fa-spotify "></i></a>
+                <a href="https://www.instagram.com " target="_blank"><i class="fab fa-instagram "></i></a>
+                <a href="https://twitter.com " target="_blank"><i class="fab fa-twitter "></i></a>
+                <a href="https://es-la.facebook.com " target="_blank"><i class="fab fa-facebook "></i></a>
+                <a href="https://web.telegram.org " target="_blank"><i class="fab fa-telegram "></i></a>
+
+            </div>
         </div>
-        <img src="/Images/grace-hopper.png" alt="grace-hopper">
-        <img src="/Images/Katie-Bouman.png" alt="Katie-Bouman">
-        <img src="/Images/Margaret_Hamilton.png" alt="Margaret_Hamilton">
-        <img src="/Images/era.png" alt="era">
-        <img src="/Images/eniac.png" alt="computer operators">
-        <img src="/Images/susan-kare.png" alt="susan-kare">
-    </section>
+    </footer>
 
-    <section class="topicos" id="topicos">
-        <h2>Algunos de nuestros temas</h2>
-        <span><img src="/Images/icon1.svg" alt="trabajo remoto">Trabajo remoto</span>   
-        <span><img src="/Images/icon2.svg" alt="repensando la programacion">Repensando la programación</span> 
-        <span><img src="/Images/icon3.svg" alt="bases del codigo">Bases del código</span>
-        <span><img src="/Images/icon4.svg" alt="seguridad informatica">Seguridad informática</span>
-    </section>
-
-    <section class="nuevos">
-        <h2>¿Querés las últimas novedades?</h2>
-        <button>ESCUCHÁ LOS EPISODIOS</button>
-    </section>
 </body>
-<footer>
-    <p> © 2020 - Hello blue pale dot</p>
-    <i class="fab fa-spotify"></i>
-    <i class="fab fa-instagram"></i>
-    <i class="fab fa-twitter"></i>
-    <i class="fab fa-facebook"></i>
-    <i class="fab fa-telegram"></i>
-</footer>
+
 </html>
