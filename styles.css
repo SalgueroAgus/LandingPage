@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,500,600&display=swap");
 html {
     background: #fff;
+    scroll-behavior: smooth;
 }
 
 body {
