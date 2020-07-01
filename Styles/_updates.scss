@@ -1,0 +1,36 @@
+#updates {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#0000ff), to(#0000a3));
+    background-image: linear-gradient(to bottom, #0000ff, #0000a3);
+    padding-left: 5vw;
+    -webkit-clip-path: polygon(0 5%, 100% 0%, 100% 100%, 0% 100%);
+    clip-path: polygon(0 7%, 100% 0%, 100% 100%, 0% 100%);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    h2 {
+        text-align: center;
+        font-family: "IBM Plex Sans", monospace;
+        color: #fff;
+        padding-top: 9vh;
+        padding-bottom: 5.4vh;
+        padding-left: 0;
+        font-size: 36px;
+        font-weight: 400;
+    }
+    .btn {
+        width: 90vw;
+        height: 4em;
+        text-transform: uppercase;
+        font-family: "IBM Plex Mono", monospace;
+        font-weight: 500;
+        font-size: 16px;
+        background-color: #00f3bb;
+        margin-bottom: 70px;
+        &:hover {
+            content: "";
+            color: #ffffff;
+            background-image: -webkit-gradient(linear, left top, right top, from(#00f0b8), to(#0000fe));
+            background-image: linear-gradient(to right, #00f0b8, #0000fe);
+        }
+    }
+}

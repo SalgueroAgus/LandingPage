@@ -1,0 +1,48 @@
+#home {
+    padding-top: 10vh;
+    background-color: #fff;
+    padding-bottom: 7.5vw;
+    h1 {
+        padding-top: 3vw;
+        font-family: 'IBM Plex Sans', monospace;
+        font-size: 2.2em;
+        line-height: 1.3em;
+        width: 70vw;
+        font-weight: 400;
+        margin-left: 5vw;
+        margin-top: 20px;
+    }
+    p {
+        font-family: 'IBM Plex Mono', monospace;
+        padding-bottom: 3vw;
+        text-align: justify;
+        width: 90vw;
+        padding-right: 3vw;
+        margin-left: 5vw;
+        font-size: 14px;
+    }
+    #linea {
+        text-decoration: line-through;
+    }
+    
+    #punto {
+        color: #0000EC;
+    }
+    .button {
+        width: 90vw;
+        height: 3em;
+        text-transform: uppercase;
+        font-family: "IBM Plex Mono", monospace;
+        font-weight: 500;
+        font-size: 1em;
+        background-color: #00F3BB;
+        outline: none;
+        margin-left: 5vw;
+        &:hover {
+            content: "";
+            color: #ffffff;
+            background-image: -webkit-gradient(linear, left top, right top, from(#00F0B8), to(#0000FE));
+            background-image: linear-gradient(to right, #00F0B8, #0000FE);
+        }
+    }
+}

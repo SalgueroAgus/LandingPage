@@ -1,0 +1,19 @@
+#guests {
+    h2 {
+        font-family: "IBM Plex Sans", monospace;
+        font-size: 2.2em;
+        width: 50vw;
+        font-weight: 400;
+        margin-left: 5vw;
+        margin-top: 55px;
+    }
+    .pics {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        flex-direction: column;
+        img {
+            width: 100vw;
+        }
+    }
+}

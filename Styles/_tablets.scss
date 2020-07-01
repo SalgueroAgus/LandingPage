@@ -1,0 +1,174 @@
+/*------------------------------------- TABLET STYLES -------------------------------------  */
+
+@media screen and (min-width: 768px) {
+    /* ------------------------------------- HEADER ------------------------------------- */
+    .header {
+        height: 60px;
+        width: 100vw;
+        ul {
+            a {
+                font-size: 16px;
+                &:hover {
+                    color: #00f3bb;
+                    text-decoration: line-through;
+                }
+                &:active {
+                    color: #060a24;
+                    text-decoration: line-through;
+                }
+            }
+        }
+        .logo {
+            float: left;
+            display: block;
+            font-size: 3em;
+            width: 36px;
+            height: 36px;
+            margin: 13px 80px;
+        }
+        nav {
+            margin-right: 50px;
+            height: 44px;
+        }
+        li {
+            float: left;
+            a {
+                color: #060a24;
+                font-family: "IBM Plex Mono", monospace;
+                background-color: #fff;
+            }
+        }
+        .menu {
+            clear: none;
+            float: right;
+            max-height: none;
+            background-color: #fff;
+        }
+        .menu-icon {
+            display: none;
+        }
+    }
+
+    /*------------------------------------- SECCION HOME -------------------------------------  */
+
+    #home {
+        h1 {
+            width: 80vw;
+            font-size: 44px;
+        }
+        p {
+            font-size: 16px;
+        }
+    }
+
+    /*------------------------------------- SECCION EPISODIOS -------------------------------------  */
+    #episodes {
+        h2 {
+            padding: 10vh 0 0 5vw;
+        }
+        & > .spotify {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            flex-direction: row;
+            padding-bottom: 35vh;
+            & > .pdc {
+                width: 45vw;
+                height: 232px;
+                margin-top: 30px;
+                border: none;
+                justify-content: space-between;
+            }
+        }
+        
+    }
+
+    /*------------------------------------- CELLPHONE IMAGE -------------------------------------  */
+    .img {
+        img {
+            width: 70vw;
+            margin-top: -20vh;
+            position: relative;
+            margin-left: 150px;
+        }
+    }
+
+    /*------------------------------------- SECCION GUESTS -------------------------------------  */
+    .pics {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        img {
+            width: 50vw;
+        }
+    }
+    /*------------------------------------- SECCION TOPICS -------------------------------------  */
+    #topics{
+        .icons {
+            margin-top: 5vh;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-direction: row;
+            flex-direction: row;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            align-content: center;
+            justify-content: space-around;
+            .icon {
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -ms-flex-direction: column;
+                flex-direction: column;
+                align-content: space-around;
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                width: 40vw;
+                margin-bottom: 10px;
+                h3 {
+                    font-family: "IBM Plex Sans", monospace;
+                    font-weight: 600;
+                    text-align: center;
+                    font-size: 1.5em;
+                }
+            }
+        }
+
+    }
+    
+    /*------------------------------------- SECCION UPDATES -------------------------------------  */
+    #updates {
+        background-image: -webkit-gradient(linear, left top, left bottom, from(#0000FF), to(#0000A3));
+        background-image: linear-gradient(to bottom, #0000FF, #0000A3);
+        padding-left: 5vw;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        .btn {
+            margin-bottom: 150px;
+        }
+        h2 {
+            margin-top: 3em;
+            height: 2em;
+        }
+    }
+    /*------------------------------------- SECCION FOOTER -------------------------------------  */
+
+    .media {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        justify-content: space-around;
+        p {
+            margin-top: 30px;
+            width: 270px;
+        }
+        .social-icons {
+            width: 30vw;
+            margin-top: 30px;
+        }
+    }
+}

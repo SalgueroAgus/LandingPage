@@ -1,0 +1,26 @@
+.img {
+    img {
+        width: 100vw;
+        margin-top: -23vh;
+        position: relative;
+    }
+}
+.us {
+    display: flex;
+    flex-direction: column;
+    h2 {
+        font-family: 'IBM Plex Sans', monospace;
+        font-size: 2.2em;
+        width: 80vw;
+        font-weight: 400;
+        margin-left: 5vw;
+        margin-top: 27px;
+    }
+    p {
+        font-family: 'IBM Plex Mono', monospace;
+        text-align: justify;
+        width: 90vw;
+        margin-left: 5vw;
+        font-size: 16px;
+    }
+}
