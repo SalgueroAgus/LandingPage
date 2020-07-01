@@ -433,6 +433,26 @@ nav {
   width: 90vw;
 }
 
+.media .fa-spotify:hover {
+  color: #1DB954;
+}
+
+.media .fa-instagram:hover {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+
+.media .fa-twitter:hover {
+  color: #1DA1F2;
+}
+
+.media .fa-facebook:hover {
+  color: #0000EC;
+}
+
+.media .fa-telegram:hover {
+  color: #0088cc;
+}
+
 /*------------------------------------- TABLET STYLES -------------------------------------  */
 @media screen and (min-width: 768px) {
   /* ------------------------------------- HEADER ------------------------------------- */
