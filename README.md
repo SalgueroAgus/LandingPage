@@ -1,5 +1,5 @@
 # proyecto-1
-Landing page for podcasts made with html and vanilla css:
+Landing page for podcasts made with html and sass:
 
 From this site you can listen to embeded podcast.
 
@@ -15,7 +15,7 @@ Link: http://salgueroagustinproyecto1.atwebpages.com/
 /*  ------------------------------------------------------------------------------------------ */ 
 
 
-Pagina para escuchar podcast hecha 100% con html y vanilla css:
+Pagina para escuchar podcast hecha 100% con html y sass:
 
 En este sitio podemos escuchar podcasts embebidos.
 
